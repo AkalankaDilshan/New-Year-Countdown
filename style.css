@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("dog.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.countdown-container{
+    display: flex;
+    text-align: center;
+}
+
+.big-text{
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-e1{
+     font-size: 1.5rem;
+     text-align: left;
+
+
+
+}
